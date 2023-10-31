@@ -366,6 +366,9 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+PRODUCT_PACKAGES += \
+    Xiaomi_Keyboard.idc
+
 # Kernel
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
