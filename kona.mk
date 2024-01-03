@@ -317,11 +317,12 @@ PRODUCT_COPY_FILES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health-service.qti
+    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-service
 
 ifneq ($(TARGET_IS_VAB),true)
 PRODUCT_PACKAGES += \
-    android.hardware.health-service.qti_recovery
+    android.hardware.health@2.1-impl.recovery
 endif
 
 PRODUCT_PACKAGES += \
