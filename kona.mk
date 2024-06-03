@@ -203,6 +203,10 @@ PRODUCT_PACKAGES += \
     android.hidl.memory.block@1.0.vendor \
     android.hidl.memory@1.0-impl
 
+# Cgroup and task_profiles
+PRODUCT_COPY_FILES += \
+    system/core/libprocessgroup/profiles/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
+    system/core/libprocessgroup/profiles/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
