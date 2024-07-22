@@ -366,6 +366,10 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# Input
+PRODUCT_PACKAGES += \
+    kona-mtp-snd-card_Button_Jack.kl
+
 PRODUCT_PACKAGES += \
     Xiaomi_Keyboard.idc
 
