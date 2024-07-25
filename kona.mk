@@ -368,7 +368,6 @@ PRODUCT_PACKAGES += \
 
 # Input
 PRODUCT_PACKAGES += \
-    Xiaomi_Smart_Pen_Keyboard.kl \
     kona-mtp-snd-card_Button_Jack.kl
 
 PRODUCT_PACKAGES += \
